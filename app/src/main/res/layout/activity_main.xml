@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -39,18 +40,20 @@
             android:layout_marginTop="24dp"
             android:layout_marginStart="20dp"
             app:srcCompat="@drawable/logo_napoli" />
-
+<HorizontalScrollView
+    android:layout_width="47dp"
+    android:layout_height="19dp"
+    android:layout_marginStart="55dp"
+    android:layout_marginTop="25dp">
         <TextView
-            android:layout_width="47dp"
+            android:layout_width="wrap_content"
             android:layout_height="19dp"
-            android:layout_marginStart="55dp"
-            android:layout_marginTop="25dp"
             android:background="#ffffff"
-            android:text="Napoli"
+            android:text="Napolibjhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhh"
             android:textColor="#1d125d"
             android:textSize="16sp"
             android:textStyle="bold"></TextView>
-
+    </HorizontalScrollView>
         <TextView
             android:layout_width="9dp"
             android:layout_height="19dp"
