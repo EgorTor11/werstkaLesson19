@@ -4,4 +4,160 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="344dp"
+            android:layout_height="108dp"
+
+            android:background="#ffffff">
+
+        </View>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="344dp"
+            android:layout_height="5dp"
+            android:background="#1d125d"></View>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/logo_napoli" />
+
+        <TextView
+            android:layout_width="47dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:text="Napoli"
+            android:textColor="#1d125d"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="9dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#1d125d"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="17dp"
+            app:srcCompat="@drawable/logo_lazio" />
+
+        <TextView
+            android:layout_width="39dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="57dp"
+            android:background="#ffffff"
+            android:text="Lazio"
+            android:textColor="#1d125d"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="9dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="57dp"
+            android:background="#ffffff"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#1d125d"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="208dp"
+            app:srcCompat="@drawable/separator" />
+        <ImageView
+            android:id="@+id/imageViewSeprRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="296dp"
+            app:srcCompat="@drawable/separator" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:layout_marginStart="16.6dp"
+            app:srcCompat="@drawable/separator2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="244dp"
+            app:srcCompat="@drawable/stats_icon" />
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="57dp"
+            android:layout_marginStart="243dp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:textSize="8sp"
+            android:textColor="#1d125d"
+            android:gravity="center_horizontal"
+            tools:text="Stats"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="224dp"
+            app:srcCompat="@drawable/stats_button" />
+        <View
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="16dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="312dp"
+            android:background="#1d125d">
+        </View>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="318dp"
+            app:srcCompat="@drawable/arrow_button" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
