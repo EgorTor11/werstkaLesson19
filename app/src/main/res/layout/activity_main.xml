@@ -1,7 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:orientation="vertical"
+    android:background="#fcfcfc"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="11dp"
+                app:srcCompat="@drawable/title_icon" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="6sp"
+                android:text="AWARDS"
+                android:textColor="#1d125d"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#1d125d"
+            android:letterSpacing="-0.03"
+            android:text="EA Sports | Player of The Month"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="344dp"
+            android:layout_height="108dp"
+
+            android:background="#ffffff">
+
+        </View>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="344dp"
+            android:layout_height="5dp"
+            android:background="#1d125d"></View>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/logo_napoli" />
+
+        <TextView
+            android:id="@+id/tvNapoli"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:maxWidth="100dp"
+            android:text="NapolixxxxDDD"
+            android:textColor="#1d125d"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#1d125d"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="56dp"
+            app:srcCompat="@drawable/logo_lazio" />
+
+        <TextView
+            android:id="@+id/tvLazio"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="57dp"
+            android:background="#ffffff"
+            android:maxWidth="100dp"
+            android:text="Lazioftyhvhgggggggggggg "
+            android:textColor="#1d125d"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="9dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="57dp"
+            android:background="#ffffff"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#1d125d"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/separator" />
+
+        <ImageView
+            android:id="@+id/imageViewSeprRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="296dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/separator" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.6dp"
+            android:layout_marginTop="96dp"
+            app:srcCompat="@drawable/separator2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/stats_icon" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="243dp"
+            android:layout_marginTop="57dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:textColor="#1d125d"
+            android:textSize="8sp"
+            android:textStyle="normal"
+            tools:text="Stats" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/stats_button" />
+
+        <View xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="16dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="312dp"
+            android:layout_marginTop="24dp"
+            android:background="#1d125d"></View>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="318dp"
+            android:layout_marginTop="48dp"
+            app:srcCompat="@drawable/arrow_button" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
